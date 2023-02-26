@@ -82,15 +82,40 @@ public  class main implements ActionListener{
         if(flag == 1){
         if(e.getSource() == add)
         {
-            tf3.setText("Addition: " + (a + b));
+            try
+            {
+                Long c = a + b;
+                tf3.setText("Addition: " + (c));
+            }
+            catch(Exception e1)
+            {
+                tf3.setText("Unable to Add ! Reduce the Number");
+            }
         }
         else if(e.getSource() == sub)
         {
-            tf3.setText("Substraction: " + (a - b));
+            try
+            {
+                Long c = a - b;
+                tf3.setText("Subtraction: " + (c));
+            }
+            catch(Exception e1)
+            {
+                tf3.setText("Unable to Subtract ! Reduce the Number");
+            }
         }
         else if(e.getSource() == mul)
         {
-            tf3.setText("Multiplication: " + (a * b));
+            try
+            {
+                Long c = a * b;
+                tf3.setBounds(100 , 260 , 250 , 35);
+                tf3.setText("Multiplication: " + (c));
+            }
+            catch(Exception e1)
+            {
+                tf3.setText("Unable to Multiply ! Reduce the Number");
+            }
         }
         else if(e.getSource() == div)
         {
