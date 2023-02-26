@@ -1,2 +1,2 @@
 # Java-GUI-Projects (A Repository for Java GUI Projects).
-<h2>1. Basic Calculator Usig Java Swing. </h2>
+<h2>1. Basic Calculator Using Java Swing. </h2>
