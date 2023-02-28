@@ -8,6 +8,6 @@
  </ul>
  <h3>Instructions to be followed for exceution: </h3>
  <ul>
-  <li>Install the JDK.</li>
+  <li>Install the JDK(Java Development Kit).</li>
   <li>Download the class file and open the Cmd/Terminal and type the command <b>java main</b></li>
   </ul>
